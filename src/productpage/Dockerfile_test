@@ -38,3 +38,4 @@ WORKDIR /opt/microservices
 #CMD ["gunicorn", "-b", "[::]:9080", "productpage:app", "-w", "8", "--keep-alive", "2", "-k", "gevent"]
 
 USER 1000
+:q
